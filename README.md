@@ -15,6 +15,7 @@ Behavior: Panics and crashes server
 ### POST /api/users
 Input (JSON):
 { "email": "string", "password": "string" }
+
 Output (201):
 {
   "id": "uuid",
@@ -26,7 +27,9 @@ Output (201):
 
 ### POST /api/login
 Input (JSON):
+```
 { "email": "string", "password": "string" }
+```
 Output (200):
 {
   "id": "uuid",
